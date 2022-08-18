@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(233, 47%, 7%) ;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 100%;
+    max-width: 1106px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    
+}
+
+.content{
+    width: 50%;
+    padding: 73px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+.content-image{
+    width: 50%;
+    background-color: hsl(277, 93%, 26%);
+    border-radius: 0 10px 10px 0;
+}
+.content-image img{
+    max-width: 100%;
+    width: 100%;
+    opacity: 0.4;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+h1{
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 36px; 
+    margin-bottom: 28px;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    font-family:  'Inter', sans-serif;
+    font-size: 17px;
+    width: 75%;
+}
+
+.text-content{
+    font-family:  'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 17px;
+    margin-bottom: 44px;
+}
+
+.templates{
+    font-family:  'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 700;
+    font-size:10px
+}
+
+h2{
+    margin-bottom: 6px;
+}
+
+.templates{
+    letter-spacing: .2rem;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 1050px){
+    
+    body{
+        padding: 50px;
+    }
+
+    .card{
+        flex-direction: column-reverse;
+    }
+   
+    .content{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-image{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .content-image img{
+        border-radius: 10px 10px 0 0;
+    }
+    .desktop{
+        display: none;
+    }
+    
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+
+    .text-content{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .mobile{
+        display: block;
+    }
+    
+    .value-1{
+        margin-bottom: 20px;
+    }
+    .value-2{
+        margin-bottom: 20px;
+    }
+    .value-3{
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        font-size: 13px;
+    }
+}
+     
+    
