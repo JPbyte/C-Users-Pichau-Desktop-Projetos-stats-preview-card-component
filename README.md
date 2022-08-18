@@ -23,9 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/image-header-desktop.jpg)
+Desktop Design
 
-![](images/image-header-mobile.jpg)
+![](design/desktop-design.jpg)
+
+Mobile design
+
+![](design/mobile-design.jpg)
 
 ### Links
 
