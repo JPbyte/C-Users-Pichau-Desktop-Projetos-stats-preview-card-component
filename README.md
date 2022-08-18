@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Stats preview card component solution]()
+- Solution URL: [Stats preview card component solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-0oXSnnEn9m)
 - Live Site URL: [Add live site URL here](https://jpbyte.github.io/C-Users-Pichau-Desktop-Projetos-stats-preview-card-component/)
 
 ## My process
